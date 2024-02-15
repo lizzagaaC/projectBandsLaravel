@@ -1,0 +1,208 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+form {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+p {
+    color: red;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+.menu-horizontal {
+    background-color: #92fde6;
+    overflow-y: hidden;
+    height: 170px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.div-logo {
+    display: block;
+    background-color: #92fde6;
+    text-align: center;
+    margin-left: 105px;
+    margin-top: 20px;
+}
+
+.imagenPrueba {
+    width: 100px;
+    height: 100px;
+    margin-bottom: -15px;
+}
+
+.div-texto {
+    margin-left: 600px;
+}
+
+.menu-horizontal a {
+    float: left;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 130px 40px;
+    text-decoration: none;
+}
+
+.menu-horizontal a:hover {
+    background-color: #ffffff;
+}
+
+
+
+
+.menu-vertical {
+    position: fixed;
+    top: 172px;
+    left: 0;
+    width: 380px;
+    background-color: #00bd9d;
+    height: 100vh;
+    overflow-y: hidden;
+    border: 2px solid black;
+}
+
+.menu-vertical h2 {
+    text-align: center;
+
+}
+
+.div-interno {
+    margin-left: 20px;
+}
+
+.contenido-principal {
+    margin-top: 180px;
+    margin-left: 250px;
+    max-height: 100vh;
+    overflow-y: auto;
+    text-align: center;
+}
+
+.contenido-principal-filtro {
+    margin-top: 180px;
+    margin-left: 250px;
+    max-height: 100vh;
+    overflow-y: auto;
+    text-align: center;
+}
+
+.contenedorInstrumentos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.instrumento {
+    width: 35%;
+    /* Puedes ajustar este valor según tus necesidades */
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+    /* Agregué un fondo blanco para mayor claridad */
+    margin-top: 130px;
+    margin-left: 150px;
+}
+
+.instrumento img {
+    max-width: 100%;
+    height: 130px;
+    width: 130px;
+    margin-bottom: 10px;
+}
+
+.instrumento label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.instrumento label b {
+    font-weight: bold;
+}
+
+.form-create {
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;
+}
+
+.form-create form {
+    display: flex;
+    max-width: 800px;
+    /* Ancho máximo del formulario */
+    width: 100%;
+}
+
+.form-left {
+    flex: 1;
+    /* Toma el 50% del ancho del formulario */
+    padding: 20px;
+    /* Espaciado interior para la imagen */
+}
+
+.form-right {
+    flex: 1;
+    /* Toma el 50% del ancho del formulario */
+    padding: 20px;
+    /* Espaciado interior para el resto del formulario */
+}
+
+.form-left img {
+    max-width: 100%;
+    /* Ajusta la imagen al 100% del ancho del contenedor */
+    width: 300px;
+    height: 300px;
+    /* Mantiene la proporción de la imagen */
+}
